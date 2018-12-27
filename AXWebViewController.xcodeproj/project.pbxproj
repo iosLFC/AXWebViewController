@@ -19,6 +19,8 @@
 		01CDC1511C2A3C9100D9AF53 /* AXWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01CDC1501C2A3C9100D9AF53 /* AXWebViewController.bundle */; };
 		01CDC15D1C2A41DF00D9AF53 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CDC15C1C2A41DF00D9AF53 /* TableViewController.m */; };
 		97F6BE6D557C0BB485DDCF88 /* libPods-AXWebViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2642E682614F41BF460E7673 /* libPods-AXWebViewController.a */; };
+		A316262421D4B31200CE974D /* CMWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A316262321D4B31200CE974D /* CMWKWebView.m */; };
+		A316262721D4B33600CE974D /* CMJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A316262621D4B33500CE974D /* CMJSObject.m */; };
 		DCA3C59F1FB0302F008DB632 /* FullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C59E1FB0302F008DB632 /* FullScreenViewController.m */; };
 		DCABA01B1EC5EE2A005C7D31 /* AXSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCABA01A1EC5EE2A005C7D31 /* AXSecurityPolicy.m */; };
 		DCABA0231EC5FDFF005C7D31 /* AXWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = DCABA01E1EC5FDFF005C7D31 /* AXWebViewControllerActivity.m */; };
@@ -51,6 +53,10 @@
 		3B7311EC599653BFAAF42107 /* Pods-AXWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXWebViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXWebViewController/Pods-AXWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		A13CC1551E977227003AC1B2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		A13CC1561E977227003AC1B2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A316262221D4B31200CE974D /* CMWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMWKWebView.h; sourceTree = "<group>"; };
+		A316262321D4B31200CE974D /* CMWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMWKWebView.m; sourceTree = "<group>"; };
+		A316262521D4B33500CE974D /* CMJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMJSObject.h; sourceTree = "<group>"; };
+		A316262621D4B33500CE974D /* CMJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMJSObject.m; sourceTree = "<group>"; };
 		DCA3C59D1FB0302F008DB632 /* FullScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullScreenViewController.h; sourceTree = "<group>"; };
 		DCA3C59E1FB0302F008DB632 /* FullScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenViewController.m; sourceTree = "<group>"; };
 		DCABA0191EC5EE2A005C7D31 /* AXSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSecurityPolicy.h; sourceTree = "<group>"; };
@@ -119,7 +125,11 @@
 		01513C081C28F90300CB8238 /* AXWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A316262221D4B31200CE974D /* CMWKWebView.h */,
+				A316262321D4B31200CE974D /* CMWKWebView.m */,
 				01513C051C28F90000CB8238 /* AXWebViewController.h */,
+				A316262521D4B33500CE974D /* CMJSObject.h */,
+				A316262621D4B33500CE974D /* CMJSObject.m */,
 				01513C061C28F90000CB8238 /* AXWebViewController.m */,
 				01CDC1501C2A3C9100D9AF53 /* AXWebViewController.bundle */,
 				DCABA01C1EC5FDFF005C7D31 /* Activity */,
@@ -327,7 +337,9 @@
 				DCA3C59F1FB0302F008DB632 /* FullScreenViewController.m in Sources */,
 				01513C071C28F90000CB8238 /* AXWebViewController.m in Sources */,
 				DCABA0231EC5FDFF005C7D31 /* AXWebViewControllerActivity.m in Sources */,
+				A316262421D4B31200CE974D /* CMWKWebView.m in Sources */,
 				01513BF01C28F70700CB8238 /* main.m in Sources */,
+				A316262721D4B33600CE974D /* CMJSObject.m in Sources */,
 				01AA4F1C1D4F28DD008F2A2C /* TabbarViewController2.m in Sources */,
 				DCABA01B1EC5EE2A005C7D31 /* AXSecurityPolicy.m in Sources */,
 				01CDC15D1C2A41DF00D9AF53 /* TableViewController.m in Sources */,
